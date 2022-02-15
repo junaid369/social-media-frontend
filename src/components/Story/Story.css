@@ -1,0 +1,53 @@
+.story-gallery{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.story{
+    background-color: rgb(73, 151, 177);
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image:url('https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-top: 20px;
+  
+}
+
+
+
+.story img{
+    position: absolute;
+    width: 45px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px solid #626262 ;
+   
+}
+
+.story p{
+    position: absolute;
+    bottom:10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+
+}
+.storyimg{
+    margin-top: 100px;
+    margin-left: 15px;
+
+}
+.storyperson{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}

@@ -1,0 +1,59 @@
+.sidebar{
+    flex:3;
+    height: calc(100vh - 50px);
+    
+  
+    
+}
+
+.profilecard{
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.profilecard{
+    margin-left: 100px;
+    width: 50%;
+    padding-top: 5px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.profileimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.profilename{
+    margin-left: 10px;
+}
+.nickname{
+    margin-top: -25px;
+    margin-right: 10px;
+    color: gray;
+}
+
+.friendsborder{
+    justify-content: center;
+}
+.friendscover{
+    background-color: white;
+    width: 50%;
+}
+.friendsimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.friendsname{
+    margin-left: 10px;
+}
+.seemore{
+    margin-left: 140px;
+    cursor: pointer;
+}
